@@ -15,7 +15,7 @@
     <![endif]-->
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <script type="text/javascript" src="http://api.map.baidu.com/api?v=1.2"></script>
-    <script type="text/javascript" src="https://github.com/baidumap/LuShu/blob/master/src/LuShu_min.js"></script>
+    <script type="text/javascript" src="http://api.map.baidu.com/library/LuShu/1.2/src/LuShu_min.js"></script>
 
   </head>
   <body>
@@ -29,7 +29,13 @@
       </div><!-- end header -->
 
     <div class="wrapper">
-
+      <div id="title">
+        <h1>LuShu</h1>
+        <p>baidu地图路书工具</p>
+        <hr>
+        <span class="credits left">Project maintained by <a href="https://github.com/baidumap">baidumap</a></span>
+        <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
+      </div>
       <div id="map_canvas" style="width:600px;height:480px"></div> 
       <div id="result" style="float:right;position:absolute;left:700px;top:0;"></div>
       <button id="run" >run</button> 
